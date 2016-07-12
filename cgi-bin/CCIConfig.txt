@@ -1,0 +1,9 @@
+encryptkey=1A6D5E96D3353
+
+driver=SQL Server
+server=devdb.coopcom.net
+database=staging
+userid=fm
+password=sep49sling
+
+

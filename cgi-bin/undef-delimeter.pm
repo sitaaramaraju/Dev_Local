@@ -1,0 +1,32 @@
+#delimeter
+undef &delim_exch;
+undef &js_delim_exch;
+undef &undo_js_delim_exch;
+undef &delim_return;
+undef &cleanHash;
+undef &cleanHashCGI;
+undef &returnHash;
+undef &js_cleanHash;
+undef &checkDate;
+undef &get_date;
+undef &get_datedb;
+undef &get_year;
+undef &get_month;
+undef &get_day;
+undef &get_datetime;
+undef &EscQuote;
+undef &EscQuoteHash;
+undef &JSEscQuote;
+undef &StripQuote;
+undef &valEmail;
+undef &ad_delim_return;
+undef &ad_delim_normal;
+undef &doublesingle;
+undef &get_path;
+undef &get_filename;
+undef &checkNumber;
+undef &ShortDate;
+undef &ExcelColLetter;
+undef &ExcelColNum;
+
+return 1;

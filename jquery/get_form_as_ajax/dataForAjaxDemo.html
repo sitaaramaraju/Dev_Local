@@ -1,0 +1,138 @@
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery.dataForAjax.js"></script>
+<style>
+body{font-size: 13px; font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif; color: #1b1b1b;  }
+.container{margin:0 auto;padding:0px;width:950px;}
+ul{list-style:none;}
+ul li{margin:10px 0px;}
+label{margin-right:10px;}
+em{color:red;}
+.biuuu{margin-bottom:50px;}
+</style>
+<script type="text/javascript">
+<!--
+jQuery(document).ready(function(){
+	//english version
+	jQuery("#button").click(function(){
+		var data = jQuery("#biuuu").dataForAjax({
+			showMessage:'showmessage',
+			message:{
+				'username':'username cann`t be empty',
+				'password':"password cann`t be empty"
+				}
+			});
+		if(data){
+			jQuery("#showmessage").html('<em>ajax submit data:</em>'+data);
+			//ajax submit
+			jQuery.ajax({
+				type:'post',
+				url:'biuuu.php',
+				data:data,
+				dataType:'json',
+				success:function(msg){
+					alert(msg.result);
+				}
+			});
+		}
+		
+	});
+	//chinese version
+	jQuery("#c_button").click(function(){
+		var data = jQuery("#c_biuuu").dataForAjax({
+			showMessage:'c_showmessage',
+			message:{
+				'username':"对不起，姓名不能为空",
+				'password':"对不起，密码不能为空"
+				}
+			});
+		if(data){
+			jQuery("#c_showmessage").html('<em>Ajax提交返回结果:</em>'+data);
+			jQuery.ajax({
+				type:'post',
+				url:'biuuu.php',
+				data:data,
+				dataType:'json',
+				success:function(msg){
+					alert(msg.result);
+				}
+			});
+		}
+		
+	});
+});
+//-->
+</script>
+
+<div class="container">
+<h1>jQuery dataForAjax Plugins 1.0 DEMO</h1>
+<h2>1.English Version</h2>
+<div id="biuuu" class="biuuu">
+<ul>
+	<input type="hidden" name="do" value="register" />
+	<li><label>username:</label><input type="text" name="username" value="" /></li>
+	<li><label>nickname:</label><input type="text" name="nickname" value="" /></li>
+	<li><label>password:</label><input type="password" name="password" value="" /></li>
+	<li><label>gender:</label>
+		<input type="radio" name="gender" value="male" />male
+		<input type="radio" name="gender" value="female" />female
+	</li>
+	<li><label>job:</label>
+		<select name="job">
+			<option value="jquery" selected>jquery</option>
+			<option value="php">php</option>
+			<option value="mysql">mysql</option>
+		</select>
+	</li>
+	
+	<li><label>interest:</label>
+		<input type="checkbox" name="interest" value="jquery" />jquery
+		<input type="checkbox" name="interest" value="php" />php
+		<input type="checkbox" name="interest" value="mysql" />mysql
+	</li>
+
+	<li><label>introduce:</label><textarea rows="5" cols="20" name="introduce"></textarea></li>
+	<li><input type="button" value="submit" id="button"></li>
+</ul>
+<div id="showmessage"></div>
+
+</div>
+<div><a href="http://www.biuuu.com/">back</a></div>
+<div><a href="http://plugins.jquery.com/project/dataForAjax">read document</a></div>
+
+
+<h2>2.中文版</h2>
+<div id="c_biuuu" class="biuuu">
+<ul>
+	<input type="hidden" name="do" value="register" />
+	<li><label>姓名:</label><input type="text" name="username" value="" /></li>
+	<li><label>昵称:</label><input type="text" name="nickname" value="" /></li>
+	<li><label>密码:</label><input type="password" name="password" value="" /></li>
+	<li><label>性别:</label>
+		<input type="radio" name="gender" value="male" checked/>男
+		<input type="radio" name="gender" value="female" />女
+	</li>
+	<li><label>工作:</label>
+		<select name="job">
+			<option value="jquery" selected>jquery</option>
+			<option value="php">php</option>
+			<option value="mysql">mysql</option>
+		</select>
+	</li>
+	
+	<li><label>兴趣:</label>
+		<input type="checkbox" name="interest" value="jquery" />jquery
+		<input type="checkbox" name="interest" value="php" />php
+		<input type="checkbox" name="interest" value="mysql" />mysql
+	</li>
+
+	<li><label>自我介绍:</label><textarea rows="5" cols="20" name="introduce"></textarea></li>
+	<li><input type="button" value="提交" id="c_button"></li>
+</ul>
+<div id="c_showmessage"></div>
+</div>
+<div><a href="http://www.biuuu.com/">返回</a></div>
+<div><a href="http://plugins.jquery.com/project/dataForAjax">查看相关说明</a></div>
+<div>
+
+
+

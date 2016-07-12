@@ -1,0 +1,200 @@
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+/*=====================================================================================================================*/
+		/* ATTEMPT #2	*/
+		
+		.breadcrumb { 
+			list-style: none; 
+			overflow: hidden; 
+			font: 18px Helvetica, Arial, Sans-Serif;	
+			margin-left: -20px;
+						text-align: center;
+
+		}
+		.breadcrumb ul { 
+			float: left; 
+		}
+		.breadcrumb li { 
+			float: left; 
+		}
+		.breadcrumb  li a {
+			color: white;
+			text-decoration: none; 
+			padding: 10px 0 10px 35px;	
+			background: brown;                   /* fallback color */
+			background: #E6E6E6;
+			position: relative; 
+			margin-top: 1px; 
+			display: block;
+			margin-right: -24px;
+			float: left;
+		}
+
+	
+		.breadcrumb  li a:after { 
+			content: " "; 
+			display: block; 
+			width: 0; 
+			height: 0;
+			border-top: 20px solid transparent;           
+			border-bottom: 20px solid transparent;
+			border-left: 30px solid #E6E6E6; /* #C4D462;	*/
+			position: absolute;
+			top: 50%;
+			margin-top: -20px; 
+						margin-left: -12px;
+			left: 100%;
+			z-index: 3; 
+		}	
+
+		
+		.breadcrumb li a:before { 
+			content: " "; 
+			display: block; 
+			width: 0; 
+			height: 0;
+			border-top: 20px solid transparent;           
+			border-bottom: 20px solid transparent;
+			border-left: 30px solid transparent;
+			position: absolute;
+			top: 50%;
+			margin-top: 0px; 
+			left: 100%;
+			z-index: 2; 
+		}	
+
+	/* had to take off cuz could not round end chevron
+		.breadcrumb li:first-child a {
+			padding-left: 30px;
+			border-top-left-radius: 10px; border-bottom-left-radius: 10px;
+		}
+	*/
+		.breadcrumb li:last-child a:before {
+			display:none;
+		}
+
+		.breadcrumb li:last-child a:after {
+			padding-right: 30px;
+			border-top-right-radius: 10px; border-bottom-right-radius: 10px;
+		}
+
+		.breadcrumb  li:nth-child(2) a       { background:       	#CCCCCC;}
+		.breadcrumb li:nth-child(2) a:after { border-left-color:   #CCCCCC; }
+		.breadcrumb li:nth-child(3) a       { background:			#B2B2B2;}
+		.breadcrumb li:nth-child(3) a:after { border-left-color:	#B2B2B2;}
+		.breadcrumb li:nth-child(4) a       { background:			#272A14; }
+	/*	.breadcrumb li:nth-child(4) a:after { border-left-color: #4E5527; }	*/
+	/*	.breadcrumb li:nth-child(4) a:after {	padding-right: 30px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; }	*/
+
+
+		.breadcrumb li:last-child a:after { border: 0;  }	
+		.breadcrumb li a:hover { background: #1F2210; }
+		.breadcrumb li a:hover:after { border-left-color: #1F2210 !important; }
+
+/*=====================================================================================================================*/
+		/* ATTEMPT #3	*/
+
+		.breadcrumb6 { 
+			list-style: none; 
+			overflow: hidden; 
+			font: 18px Helvetica, Arial, Sans-Serif white;	
+			margin-left: -20px;
+						text-align: center;
+
+		}
+		.breadcrumb6 ul { 
+			float: left; 
+		}
+		.breadcrumb6 li { 
+			float: left; 
+		}
+		.breadcrumb6  li a {
+			color: black;
+			text-decoration: none; 
+			padding: 10px 0 10px 35px;	
+			background: brown;                   /* fallback color */
+			background:  #C4D462;	/* #C4D462;	*/
+			position: relative; 
+			margin-top: 1px; 
+			display: block;
+			margin-right: -24px;
+			float: left;
+		}
+
+	
+		.breadcrumb6  li a:after { 
+			content: " "; 
+			display: block; 
+			width: 0; 
+			height: 0;
+			border-top: 20px solid transparent;           
+			border-bottom: 20px solid transparent;
+			border-left: 30px solid  #C4D462; /* #C4D462;	*/
+			position: absolute;
+			top: 50%;
+			margin-top: -20px; 
+						margin-left: -12px;
+
+			left: 100%;
+			z-index: 3; 
+		}	
+
+		
+		.breadcrumb6 li a:before { 
+			content: " "; 
+			display: block; 
+			width: 0; 
+			height: 0;
+			border-top: 20px solid transparent;           
+			border-bottom: 20px solid transparent;
+			border-left: 30px solid blue;
+			position: absolute;
+			top: 50%;
+			margin-top: 25px; 
+			left: 100%;
+			z-index: 2; 
+		}	
+
+	/* had to take off cuz could not round end chevron
+		.breadcrumb3 li:first-child a {
+			padding-left: 30px;
+			border-top-left-radius: 10px; border-bottom-left-radius: 10px;
+		}
+	*/
+		.breadcrumb6 li:last-child a:before {
+			display:none;
+		}
+
+		.breadcrumb6 li:last-child a:after {
+			padding-right: 30px;
+			border-top-right-radius: 10px; border-bottom-right-radius: 10px;
+		}
+
+		.breadcrumb6  li:nth-child(2) a       { background:        #9DAA4E; }
+		.breadcrumb6 li:nth-child(2) a:after { border-left-color:   #9DAA4E; }
+		.breadcrumb6 li:nth-child(3) a       { background:			#767F3B;}
+		.breadcrumb6 li:nth-child(3) a:after { border-left-color:	#767F3B;}
+		.breadcrumb6 li:nth-child(4) a       { background:			#4E5527; }
+	/*	.breadcrumb6 li:nth-child(4) a:after { border-left-color: #4E5527; }	*/
+	/*	.breadcrumb6 li:nth-child(4) a:after {	padding-right: 30px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; }	*/
+
+
+		.breadcrumb6 li:last-child a:after { border: 0;  }	
+		.breadcrumb6 li a:hover { background: #1F2210; }
+		.breadcrumb6 li a:hover:after { border-left-color: #1F2210 !important; }
+
+/*=============================TRY COLUMNS============================================================*/
+
+/*
+		.triangle-right2 { width: 0; height: 0; border-top: 10px solid transparent; border-left: 15px solid red; border-bottom: 10px solid transparent; }
+		.triangle-right { width: 0; height: 0; border-top: 15px solid blue; border-left: 25px solid red; border-bottom: 15px solid blue; }
+*/

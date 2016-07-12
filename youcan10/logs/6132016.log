@@ -1,0 +1,76 @@
+[2::17::1] - ref_hist.cgi :  
+[3::3::27] - ref_hist.cgi :  
+[3::3::31] - ref_hist.cgi :  
+[3::19::7] - youcan_subs.cgi : [Microsoft][ODBC SQL Server Driver]COUNT field incorrect or syntax error (SQL-07002) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 744.
+ 
+[3::54::52] - youcan_subs.cgi : [Microsoft][ODBC SQL Server Driver][SQL Server]String or binary data would be truncated. (SQL-22001) [state was 22001 now 01000]
+[Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. (SQL-01000) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 557.
+ 
+[3::54::52] - youcan_subs.cgi : [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot insert the value NULL into column 'lp_lead_id', table 'Staging.dbo.lkup_qwest_opts'; column does not allow nulls. INSERT fails. (SQL-23000) [state was 23000 now 01000]
+[Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. (SQL-01000) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 615.
+ 
+[3::54::55] - youcan_subs.cgi : [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot insert the value NULL into column 'lp_lead_id', table 'Staging.dbo.lp_lead_history'; column does not allow nulls. INSERT fails. (SQL-23000) [state was 23000 now 01000]
+[Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. (SQL-01000) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 712.
+ 
+[3::54::55] - youcan_subs.cgi : [Microsoft][ODBC SQL Server Driver]COUNT field incorrect or syntax error (SQL-07002) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 744.
+ 
+[3::54::55] - youcan_subs.cgi : [Microsoft][ODBC SQL Server Driver][SQL Server]Incorrect syntax near ','. (SQL-42000)
+[Microsoft][ODBC SQL Server Driver][SQL Server]Statement(s) could not be prepared. (SQL-42000) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 784.
+ 
+[4::7::11] - youcan_subs.cgi : [Microsoft][ODBC SQL Server Driver][SQL Server]String or binary data would be truncated. (SQL-22001) [state was 22001 now 01000]
+[Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. (SQL-01000) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 557.
+ 
+[4::7::11] - youcan_subs.cgi : [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot insert the value NULL into column 'lp_lead_id', table 'Staging.dbo.lkup_qwest_opts'; column does not allow nulls. INSERT fails. (SQL-23000) [state was 23000 now 01000]
+[Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. (SQL-01000) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 615.
+ 
+[4::7::11] - youcan_subs.cgi : [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot insert the value NULL into column 'lp_lead_id', table 'Staging.dbo.lp_lead_history'; column does not allow nulls. INSERT fails. (SQL-23000) [state was 23000 now 01000]
+[Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. (SQL-01000) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 712.
+ 
+[4::7::11] - youcan_subs.cgi : [Microsoft][ODBC SQL Server Driver]COUNT field incorrect or syntax error (SQL-07002) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 744.
+ 
+[4::17::15] - youcan_subs.cgi : [Microsoft][ODBC SQL Server Driver][SQL Server]String or binary data would be truncated. (SQL-22001) [state was 22001 now 01000]
+[Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. (SQL-01000) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 557.
+ 
+[4::17::15] - youcan_subs.cgi : [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot insert the value NULL into column 'lp_lead_id', table 'Staging.dbo.lkup_qwest_opts'; column does not allow nulls. INSERT fails. (SQL-23000) [state was 23000 now 01000]
+[Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. (SQL-01000) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 615.
+ 
+[4::17::15] - youcan_subs.cgi : [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot insert the value NULL into column 'lp_lead_id', table 'Staging.dbo.lp_lead_history'; column does not allow nulls. INSERT fails. (SQL-23000) [state was 23000 now 01000]
+[Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. (SQL-01000) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 712.
+ 
+[4::17::15] - youcan_subs.cgi : Can't locate object method "prepare" via package "DBI::db=HASH(0x12dc2e4)" (perhaps you forgot to load "DBI::db=HASH(0x12dc2e4)"?) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 873, <IN> line 11.
+ 
+[4::17::15] - youcan_subs.cgi - select isnull(lead_group,56) as lead_group , legacy, language_id
+	   from lp_lead with(nolock) inner join lkup_qwest_opts opts with (nolock) on opts.lp_Lead_id = lp_lead.lp_lead_id
+				where lp_lead.lp_lead_id = ? : [Microsoft][ODBC SQL Server Driver]COUNT field incorrect or syntax error (SQL-07002) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 744.
+ 
+[4::24::16] - youcan_subs.cgi : Can't locate object method "prepare" via package "DBI::db=HASH(0x12ddcec)" (perhaps you forgot to load "DBI::db=HASH(0x12ddcec)"?) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 873, <IN> line 11.
+ 
+[4::39::2] - youcan_subs.cgi : [Microsoft][ODBC SQL Server Driver][SQL Server]String or binary data would be truncated. (SQL-22001) [state was 22001 now 01000]
+[Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. (SQL-01000) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 557.
+ 
+[4::39::2] - youcan_subs.cgi : [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot insert the value NULL into column 'lp_lead_id', table 'Staging.dbo.lkup_qwest_opts'; column does not allow nulls. INSERT fails. (SQL-23000) [state was 23000 now 01000]
+[Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. (SQL-01000) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 615.
+ 
+[4::39::2] - youcan_subs.cgi : [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot insert the value NULL into column 'lp_lead_id', table 'Staging.dbo.lp_lead_history'; column does not allow nulls. INSERT fails. (SQL-23000) [state was 23000 now 01000]
+[Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. (SQL-01000) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 712.
+ 
+[5::23::53] - youcan_subs.cgi : [Microsoft][ODBC SQL Server Driver][SQL Server]String or binary data would be truncated. (SQL-22001) [state was 22001 now 01000]
+[Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. (SQL-01000) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 557.
+ 
+[5::23::53] - youcan_subs.cgi : [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot insert the value NULL into column 'lp_lead_id', table 'Staging.dbo.lkup_qwest_opts'; column does not allow nulls. INSERT fails. (SQL-23000) [state was 23000 now 01000]
+[Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. (SQL-01000) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 615.
+ 
+[5::23::54] - youcan_subs.cgi : [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot insert the value NULL into column 'lp_lead_id', table 'Staging.dbo.lp_lead_history'; column does not allow nulls. INSERT fails. (SQL-23000) [state was 23000 now 01000]
+[Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. (SQL-01000) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 712.
+ 
+[14::8::29] - ref_hist.cgi :  
+[19::29::29] - ref_hist.cgi :  
+[20::43::58] - my_youcan.cgi :  
+[21::7::18] - my_youcan.cgi :  
+[21::10::6] - ref_hist.cgi :  
+[21::11::4] - my_youcan.cgi :  
+[21::12::5] - my_youcan.cgi :  
+[21::13::3] - ref_hist.cgi :  
+[21::23::44] - my_youcan.cgi :  
+[21::28::40] - my_youcan.cgi :  
+[23::50::26] - ref_hist.cgi :  

@@ -1,0 +1,44 @@
+/* QWEST YOUCAN CSS (IE ONLY)
+|  Ver. 1.0
+|  Author: mymarketinglab.com
+*/
+
+/*NAVIGATION*/
+#header-nav-main {width:636px; height:56px; position:relative; float:right; display:block; margin:18px 0 6px 0;}
+	ul.nav-main {width:636px; height:56px; position:absolute; overflow:hidden; list-style-type:none; text-indent:-9999px;}
+	ul.nav-main li {list-style-type:none; margin:0;}
+	ul.nav-main a {height:56px; width:auto; text-indent:-9999px; text-decoration:none; display:block; overflow:hidden;}
+		li.nav-main-1 {position:absolute; top:0px; left:89px; width:84px; height:56px; background:url(../img/nav-main.gif) no-repeat 0 0;}
+
+		li.nav-main-2 {position:absolute; top:0px; left:84px; width:89px; height:56px; background:url(../img/nav-main.gif) no-repeat -84px 0; display:none;}
+
+		li.nav-main-3 {position:absolute; top:0px; left:172px; width:88px; height:56px; background:url(../img/nav-main.gif) no-repeat -172px 0;}
+
+		li.nav-main-4 {position:absolute; top:0px; left:261px; width:108px; height:56px; background:url(../img/nav-main.gif) no-repeat -261px 0;}
+
+		li.nav-main-5 {position:absolute; top:0px; left:172px; width:140px; height:56px; background:url(../img/nav-main.gif) no-repeat -369px 0;}
+
+		li.nav-main-6 {position:absolute; top:0px; left:320px; width:127px; height:56px; background:url(../img/nav-main.gif) no-repeat -509px 0;}
+
+		li.nav-main-1 a:hover {background:url(../img/nav-main.gif) no-repeat 0 -56px;}
+
+		li.nav-main-2 a:hover {background:url(../img/nav-main.gif) no-repeat -84px -56px; display:none;}
+
+		li.nav-main-3 a:hover {background:url(../img/nav-main.gif) no-repeat -172px -56px;}
+
+		li.nav-main-4 a:hover {background:url(../img/nav-main.gif) no-repeat -261px -56px;}
+
+		li.nav-main-5 a:hover {background:url(../img/nav-main.gif) no-repeat -369px -56px;}
+
+		li.nav-main-6 a:hover {background:url(../img/nav-main.gif) no-repeat -509px -56px;}
+		
+#header-nav-sec {height:22px; width:auto; float:right; display:inline-block;}
+	#header-nav-sec ul {width:auto; padding-top:4px; border-top:1px solid #FFF;text-align:center;}
+	#header-nav-sec ul li {width:auto; height:22px; display:inline; margin:0; padding-left:2px; list-style-type:none;}
+		#header-nav-sec ul li a:link, #header-nav-sec ul li a:visited {font-family:Helvetica, Arial, sans-serif; font-size:12px; text-decoration:none; color:#000;}
+		#header-nav-sec ul li a:hover, #header-nav-sec ul li a:active {font-family:Helvetica, Arial, sans-serif; font-size:12px; text-decoration:none; color:#FFF; border-bottom:2px solid #FFF;}
+
+#nav-sec-1 {width:810px;}
+#nav-sec-3 {width:310px;}
+#nav-sec-4 {width:310px;}
+#nav-sec-6 {width:645px; display:inline-block;}

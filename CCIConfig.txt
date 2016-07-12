@@ -1,0 +1,7 @@
+encryptkey=nzbGcXxtmwUGtLufVEIY3NXim15f/3jMw5zKdqC9Vac=
+url=https://centurylinkyoucan.com/
+driver=SQL Server
+server=galaxynew.cciprod.local
+database=coop
+userid=LProUser
+password=vr+hKcwA

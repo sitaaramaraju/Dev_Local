@@ -1,0 +1,195 @@
+/* CENTURY LINK BUSINESS - TECH SERVICE TOOL  ul, li, */ 
+
+/* RESET on line 12 border:0; */ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, 
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {margin:0; padding:0;  outline:0; font-size:100%; vertical-align:baseline; background:transparent; font-family:Arial, Helvetica-Neue, Helvetica, sans-serif; text-rendering:optimizeLegibility;}
+body {line-height:1; background:#FFF;}
+/*ol, ul {list-style: none;}*/
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+
+/* remember to define focus styles! */
+:focus {outline:0;}
+
+/* remember to highlight inserts somehow! */
+ins {text-decoration:none;}
+del {text-decoration:line-through;}
+big {font-size:16px; font-weight:bold;}
+small {font-size:14px; font-weight:normal; color:#EF7E26;}
+
+extrasmall {font-size:12px; font-weight:normal; color:#00853F;}
+strong {font-weight:700;}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {border-collapse:collapse; border-spacing:0;}
+
+/* GLOBAL
+.............................................*/
+.left {float:left;}
+.right {float:right;}
+.clear {clear:both;}
+
+.greenlt {color:#39B54A;}
+.greendk {color:#00853F;}
+.orange {color:#F37324;}
+.greylt {color:#F5F5F5;}
+.greydk {color:#B1B1B1;}
+
+h1 {font-family:Arial, Helvetica-Neue, Helvetica, sans-serif; font-size:40px; font-weight:800; color:#00853F;}
+h2 {font-family:Arial, Helvetica-Neue, Helvetica, sans-serif; font-size:34px; font-weight:800; color:#00853F;}
+h3 {font-family:Arial, Helvetica-Neue, Helvetica, sans-serif; font-size:24px; font-weight:800; color:#00853F;}
+h4 {font-family:Arial, Helvetica-Neue, Helvetica, sans-serif; font-size:22px; font-weight:800; color:#231F20;}
+h5 {font-family:Arial, Helvetica-Neue, Helvetica, sans-serif; font-size:20px; font-weight:800; color:#00853F;}
+
+p {font-family:Arial, Helvetica-Neue, Helvetica, sans-serif; font-size:14px; font-weight:normal; line-height:16px; color:#231F20; margin:0 0 12px 0;}
+
+a:link, a:visited {color:#39B54A; text-decoration:underline;}
+a:hover, a:active {color:#00853F; text-decoration:none;}
+
+hr {width:100%; height:1px; margin:24px 0; border:none; background:#D8D8D8;}
+
+/* LAYOUT
+.............................................*/
+#layout {width:960px; height:100%; margin:0 auto; background:#FFF;}
+#layout-header {width:936px; height:86px; margin:0; padding:24px 0 0 24px;}
+#layout-body {width:912px; height:100%; margin:0; padding:24px; z-index:100; border:1px solid #CACBCB; -webkit-border-radius:20px; -moz-border-radius:20px; border-radius:20px; 
+	background:#F5F5F5; 
+	background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y1ZjVmNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background:-moz-linear-gradient(top, #F5F5F5 0%, #FFFFFF 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#F5F5F5), color-stop(100%,#FFFFFF));
+	background:-webkit-linear-gradient(top, #F5F5F5 0%,#FFFFFF 100%);
+	background:-o-linear-gradient(top,  #F5F5F5 0%,#FFFFFF 100%);
+	background:-ms-linear-gradient(top,  #F5F5F5 0%,#FFFFFF 100%);
+	background:linear-gradient(top,  #F5F5F5 0%,#FFFFFF 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#F5F5F5', endColorstr='#FFFFFF',GradientType=0);}
+#layout-footer {width:960px; height:auto; margin:12px 0; padding:0;}
+
+/* HEADER
+.............................................*/
+/*#layout-header h1 {width:242px; height:60px; display:block; background:url(../img/logo-centurylink.gif) no-repeat; text-indent:-9999px;}*/
+
+/* BODY
+.............................................*/
+#body-left {width:622px; height:100%;min-height:100% ; display:inline-block; float:left; z-index:500;}
+#body-biggest {width:888px; height:100%;min-height:100% ; display:inline-block; float:left; z-index:500;}
+
+#body-right {width:266px; height:50%; display:inline; float:left; margin-left=622px; z-index:500;}
+.form-table {margin:20px 0;}
+.form-table td {padding:6px 0;}
+	.form-table p {font-size:20px;}
+	.form-table .text-field {width:270px; height:30px; margin:0 0 0 6px; padding:8px 6px; border:1px solid #CACBCB; font-size:20px;}
+		.form-table .text-field:focus {background:#F5F5F5;}
+
+
+	.form-table .btn-field {width:80px;  margin:0 0 0 6px; padding:8px 6px 6px 8px; border:1px solid #CACBCB; font-size:20px;}
+		.form-table .btn-field:focus {background:#F5F5F5;}
+	.form-table .btn3-field {width:90px;  margin:0 0 0 6px; padding:8px 6px 6px 8px; border:1px solid #CACBCB; font-size:20px;}
+		.form-table .btn3-field:focus {background:#F5F5F5;}
+
+.form-table .prop-field {width:90px; height:10px; margin:0 0 0 6px; padding:6px 4px; border:1px solid #CACBCB; font-size:13px;}
+		.form-table .prop-field:focus {background:#F5F5F5;}	
+
+.form-table .text-box {width:98%; margin:0 0 0 6px; padding:8px 6px; border:1px solid #CACBCB; font-size:20px;}
+		.form-table .text-box:focus {background:#F5F5F5;}
+	.form-table .drop-down {width:270px; height:40px; margin:0 0 0 6px; padding:8px 6px; border:1px solid #CACBCB; font-size:20px;}
+		.form-table .drop-down:focus {background:#F5F5F5;}
+	.form-table .radio-button {margin:0 0 6px 6px; padding:8px 6px; border:none; font-size:20px;}
+p.included {margin:0 0 0 32px; padding:0; font-size:14px;}
+p2.included {margin:0 0 0 32px; padding:0; font-size:11px;}
+p3.included {font-size:11px; text-align:center;}
+.button-login {width:155px; height:82px; display:block; background:url(../img/button-login.gif) no-repeat; border:none; cursor:pointer; text-indent:-9999px;}
+.button-login:hover {background-position:0 -82px;}
+.button-send {width:155px; height:82px; display:block; background:url(../img/button-send.gif) no-repeat; border:none; cursor:pointer; text-indent:-9999px;}
+.button-send:hover {background-position:0 -82px;}
+.button-contentmap {width:194px; height:62px; display:block; background:url(../img/button-contentmap.gif) no-repeat; border:none; cursor:pointer; text-indent:-9999px;}
+.button-contentmap:hover {background-position:0 -62px;}
+
+.button-leadlist {width:194px; height:62px; display:block; background:url(../img/Button-AdvancedServices.gif) no-repeat; border:none; cursor:pointer; text-indent:-9999px;}
+.button-leadlist:hover {background-position:0 -62px;}
+
+.button-promo-usage {width:194px; height:62px; display:block; background:url(../img/Promo-Usage-Button-orange.gif) no-repeat; border:none; cursor:pointer; text-indent:-9999px;}
+.button-promo-usage:hover {background-position:0 -62px;}
+
+/* Buttons for PB */
+.button-review {width:101px; height:52px; display:block; background:url(../img/button-review2.gif) no-repeat; border:none; cursor:pointer; text-indent:-9999px;}
+.button-review:hover {background-position:0 -52px;}
+
+.button-edit {width:101px; height:52px; display:block; background:url(../img/button-edit2.gif) no-repeat; border:none; cursor:pointer; text-indent:-9999px;}
+.button-edit:hover {background-position:0 -52px;}
+
+.button-cancel {width:101px; height:52px; display:block; background:url(../img/button-cancel2.gif) no-repeat; border:none; cursor:pointer; text-indent:-9999px;}
+.button-cancel:hover {background-position:0 -52px;}
+
+.button-send2 {width:101px; height:54px; display:block; background:url(../img/button-send3.gif) no-repeat; border:none; cursor:pointer; text-indent:-9999px;}
+.button-send2:hover {background-position:0 -54px;}
+
+.btnon {color: #ffffff; background-color: #2E3F51; font-family: verdana; font-size: 7.5pt; font-weight: 700; border-style: solid; border-color: #2e3f51; border-width: thin; }
+.btnoff {color: #ffffff; background-color: #125B92; font-family: verdana; font-size: 7.5pt; font-weight: 700; border-style: solid; border-color: #094D9C; border-width: thin; cursor: hand;}
+
+#right-sidebar {width:242px; height:100%; margin:0 0 0 24px; padding:16px; border:1px solid #CACBCB; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; background: #ffffff; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiMWIxYjEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top,  #ffffff 0%, #b1b1b1 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#b1b1b1)); background: -webkit-linear-gradient(top,  #ffffff 0%,#b1b1b1 100%); background: -o-linear-gradient(top,  #ffffff 0%,#b1b1b1 100%); background: -ms-linear-gradient(top,  #ffffff 0%,#b1b1b1 100%); background: linear-gradient(top,  #ffffff 0%,#b1b1b1 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#b1b1b1',GradientType=0 ); position:relative;}
+#right-sidebar h5 {margin-bottom:6px; padding:8px 0 12px 0; background:url(../img/bubbles.gif) 186px 0 no-repeat}
+.tracker td {border-top:1px solid #231F20; border-bottom:1px solid #231F20;}
+.tracker p {margin:0; padding:6px 0;}
+.tracker small {color:#231F20; font-size:12px; font-style:italic;}
+
+.sold {color:#F00; font-weight:bold;}
+
+/* FOOTER
+.............................................*/
+#layout-footer p {font-size:11px; text-align:center;}
+
+/* POPUP
+.............................................*/
+#inline_content h5 {padding:12px 0;}
+.email-content-title {margin:12px 0;}
+	.email-content-title td {padding:6px; background:#8DC63F; color:#FFF; font-weight:bold;}
+.email-content {margin:0 0 12px 0}
+	.email-content td {padding:2px 6px 0 6px; border:1px solid #D8D8D8;}
+	.email-content p {margin:0; padding:4px 0;}
+.email-content .alt {background:#CAEAB5;}
+
+/* ColorBox Core Style: The following CSS is consistent between example themes and should not be altered. */
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block;}
+.cboxIframe{width:100%; height:100%; display:block; border:0;}
+
+/* User Style: Change the following styles to modify the appearance of ColorBox.  They are ordered & tabbed in a way that represents the nesting of the generated HTML. */
+#cboxOverlay{background:#fff;}
+#colorbox{}
+    #cboxContent{margin-top:32px; overflow:visible;}
+        .cboxIframe{background:#FFF;}
+        #cboxError{padding:50px; border:1px solid #CCC;}
+        #cboxLoadedContent{background:#000; padding:1px;}
+        #cboxLoadingGraphic{background:url(../img/loading.gif) no-repeat center center;}
+        #cboxLoadingOverlay{background:#000;}
+        #cboxTitle{position:absolute; top:-22px; left:0; color:#000;}
+        #cboxCurrent{position:absolute; top:-22px; right:205px; text-indent:-9999px;}
+        #cboxSlideshow, #cboxPrevious, #cboxNext {text-indent:-9999px; width:20px; height:20px; position:absolute; top:-20px; background:url(../img/controls.png) no-repeat 0 0;}
+		#cboxClose{text-indent:-9999px; width:43px; height:44px; position:absolute; top:-20px; background:url(../img/button-close.gif) no-repeat 0 0;}
+        #cboxPrevious{background-position:0px 0px; right:44px;}
+        #cboxPrevious:hover{background-position:0px -25px;}
+        #cboxNext{background-position:-25px 0px; right:22px;}
+        #cboxNext:hover{background-position:-25px -25px;}
+        #cboxClose{background-position:0px 0px; right:0;}
+        #cboxClose:hover{background-position:0px -44px;}
+        .cboxSlideshow_on #cboxPrevious, .cboxSlideshow_off #cboxPrevious{right:66px;}
+        .cboxSlideshow_on #cboxSlideshow{background-position:-75px -25px; right:44px;}
+        .cboxSlideshow_on #cboxSlideshow:hover{background-position:-100px -25px;}
+        .cboxSlideshow_off #cboxSlideshow{background-position:-100px 0px; right:44px;}
+        .cboxSlideshow_off #cboxSlideshow:hover{background-position:-75px -25px;}
+
+/* for ie7 */

@@ -1,0 +1,23 @@
+[15::25::41] - ref_hist.cgi :  
+[15::27::34] - youcan_subs.cgi : [Microsoft][ODBC SQL Server Driver][SQL Server]String or binary data would be truncated. (SQL-22001) [state was 22001 now 01000]
+[Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. (SQL-01000) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 557.
+ 
+[15::27::34] - youcan_subs.cgi : [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot insert the value NULL into column 'lp_lead_id', table 'Staging.dbo.lkup_qwest_opts'; column does not allow nulls. INSERT fails. (SQL-23000) [state was 23000 now 01000]
+[Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. (SQL-01000) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 615.
+ 
+[15::27::35] - youcan_subs.cgi : [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot insert the value NULL into column 'lp_lead_id', table 'Staging.dbo.lp_lead_history'; column does not allow nulls. INSERT fails. (SQL-23000) [state was 23000 now 01000]
+[Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. (SQL-01000) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 712.
+ 
+[15::27::35] - youcan_subs.cgi : [Microsoft][ODBC SQL Server Driver]COUNT field incorrect or syntax error (SQL-07002) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 744.
+ 
+[15::27::35] - youcan_subs.cgi : called with 3 bind variables when 1 are needed at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 761.
+ 
+[15::27::35] - youcan_subs.cgi : [Microsoft][ODBC SQL Server Driver][SQL Server]Incorrect syntax near ','. (SQL-42000)
+[Microsoft][ODBC SQL Server Driver][SQL Server]Statement(s) could not be prepared. (SQL-42000) at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 784.
+ 
+[15::36::1] - youcan_subs.cgi : called with 3 bind variables when 0 are needed at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 761.
+ 
+[15::38::14] - youcan_subs.cgi : called with 3 bind variables when 0 are needed at D:/centurylinkyoucan/youcan10/youcan_subs.cgi line 761.
+ 
+[15::38::19] - ref_hist.cgi :  
+[15::40::24] - ref_hist.cgi :  

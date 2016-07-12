@@ -1,0 +1,4 @@
+<% 
+SaveToCentralDictionary = false
+LicenseKey = "LIVESPELL-HQC5FLVFPE11PTY-LY4G0-AJEGW-JS.ENTERPRISE-F3C5C" 
+%>
